@@ -1,4 +1,4 @@
-# Toy Functions
+# Toy Functions for Multi-omics
 
 
 ## Genome
