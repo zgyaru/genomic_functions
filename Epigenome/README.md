@@ -17,3 +17,5 @@ Rscript idat2beta.R input_folder output_file
 ```
 * input_folder: the directory including all two-color IDAT files 
 * output_file: beta values for all qualified probes in 'csv' format
+#### Reference:
+Louise F. P et al.(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6332695/)
