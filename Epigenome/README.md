@@ -1,6 +1,8 @@
 ## Epigenome
 
 ### 1. [methylation] switch CpG sites wig file to new wig used for deeptools
+#### Required:
+* python 3.X
 
 #### Usage:
 ```
