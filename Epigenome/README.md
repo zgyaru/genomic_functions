@@ -4,6 +4,7 @@
 
 * input wig format (two columns): position  value
 * output wig format (four columns): chr    start   end value
+
 **Usage**
 ```
 python wigToDeeptools.py input.wig output.wig
