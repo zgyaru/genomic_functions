@@ -6,9 +6,9 @@ input_file = args[1]
 region = args[2]
 output_file = args[3]
 
-input_file = "AMD_Retina_peak.txt"
-region = "genebody"
-output_file = "test.txt"
+#input_file = "AMD_Retina_peak.txt"
+#region = "genebody"
+#output_file = "test.txt"
 
 #Chipseeker result must include "seqnames","start","V4","annotation","SYMBOL"
 peak_file = read.table(input_file,header=T,na.strings = c("NA"),sep = "\t",fill = TRUE,quote = "")
