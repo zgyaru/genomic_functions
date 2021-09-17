@@ -2,9 +2,10 @@ library(minfi)
 library(IlluminaHumanMethylation450kanno.ilmn12.hg19)
 
 args = commandArgs(T)
+input_file = args[1]
+output_file = args[2]
 
-
-rgSet = read.metharray.exp(args[1])
+rgSet = read.metharray.exp(input_file)
 
 ######################################################
 ################# quality control ####################
@@ -44,4 +45,4 @@ keep = !(featureNames(mSetSqFlt) %in% xReactiveProbes$TargetID)
 mSetSqFlt = mSetSqFlt[keep,]
 
 bVals = getBeta(mSetSqFlt)
-write.csv(bVals,args[2])
+write.csv(bVals,output_file)
