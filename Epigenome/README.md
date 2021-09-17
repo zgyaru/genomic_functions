@@ -27,9 +27,6 @@ Rscript idat2beta.R input_folder output_file
 #### Reference:
 [Louise F. P et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6332695/)
 
-# ATAC
-## ATAC-analysis
-
 ### 3.[ATAC]ATAC_gene_avr_max.r
 #### Required: 
 * R 
