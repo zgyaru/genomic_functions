@@ -1,6 +1,6 @@
 ## Epigenome
 
-### 1. switch CpG sites wig file to new wig used for deeptools
+### 1. [methylation] switch CpG sites wig file to new wig used for deeptools
 
 #### Usage:
 ```
@@ -9,7 +9,7 @@ python wigToDeeptools.py input.wig output.wig
 * input.wig: format (two columns): position  value
 * output.wig: format (four columns): chr    start   end value
 
-### 2. convert idat data to beta value
+### 2. [450k] convert idat data to beta value
 Parsing IDAT files from Illumina methylation arrays.
 #### Usage:
 ```
