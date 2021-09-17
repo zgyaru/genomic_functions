@@ -11,6 +11,10 @@ python wigToDeeptools.py input.wig output.wig
 
 ### 2. [450k] convert idat data to beta value
 Parsing IDAT files from Illumina methylation arrays.
+#### Required:
+R
+minfi
+IlluminaHumanMethylation450kanno.ilmn12.hg19
 #### Usage:
 ```
 Rscript idat2beta.R input_folder output_file
