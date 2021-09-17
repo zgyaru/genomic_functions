@@ -2,10 +2,18 @@
 
 ### 1. switch CpG sites wig file to new wig used for deeptools
 
-* input wig format (two columns): position  value
-* output wig format (four columns): chr    start   end value
-
 #### Usage:
 ```
 python wigToDeeptools.py input.wig output.wig
 ```
+* input.wig: format (two columns): position  value
+* output.wig: format (four columns): chr    start   end value
+
+### 2. convert idat data to beta value
+Parsing IDAT files from Illumina methylation arrays.
+#### Usage:
+```
+Rscript idat2beta.R input_folder output_file
+```
+* input_folder: the directory including all two-color IDAT files 
+* output_file: beta values for all qualified probes in 'csv' format
