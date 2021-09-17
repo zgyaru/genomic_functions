@@ -1,4 +1,4 @@
-# genomic_functions
+# Toy Functions
 
 
 ## Genome
